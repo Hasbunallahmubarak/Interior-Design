@@ -1,0 +1,17 @@
+@media screen and (max-width: 1000px){
+	#side-bar{display: none;z-index: 5;	animation: animate 0.5s;}
+	.nav{display: block;}
+	.main{margin: 0px;width: 100%;padding: 0px 15px;float: none;overflow: hidden;}
+	a#close{display: block;}
+}
+@media screen and (max-width: 650px){
+	#design > div,.floor{display: block;}
+	.team {width: 100%;}
+	.images img{padding: 5px 0px;}
+	.floor > div{width: 100%; margin: 20px 0px;}
+	.images > div{width: 100%;}
+}
+@keyframes animate{
+	from{left:-300px;}
+	to{left: 0px;}
+}
